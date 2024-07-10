@@ -1,0 +1,55 @@
+.text-box h3:nth-of-type(1) {
+    color: pink;
+  }
+  #greycol {
+    color: grey;
+  }
+  .text-box div p {
+    color: red;
+  }
+  .text-box > p:nth-of-type(3) {
+    color: green;
+  }
+  .yellow {
+    color: yellow;
+  }
+  .lesson th:first-child:focus {
+    color: lightcoral;
+  }
+  .lesson th:nth-of-type(even) :disabled {
+    color: lightblue;
+  }
+  .lesson th:last-child :visited {
+    color: orange;
+  }
+  .lesson th:nth-of-type(odd) {
+    color: greenyellow;
+  }
+  .lesson th:nth-of-type(4) :hover{
+    color: blueviolet;
+  }
+  .lesson caption:hover {
+    color: red;
+    text-decoration:line-through;
+  } 
+  .lesson tr td:nth-of-type(even) {
+    color: darkgray;
+    text-decoration:line-through;
+  }
+  .lesson tr td:nth-of-type(odd) {
+    color: darkblue;
+    text-decoration:dotted;
+  }
+  .lesson tr td:last-child {
+    color: darkgoldenrod;
+    text-decoration:underline;
+  }
+  .lesson tr td:first-child {
+    color: darkgreen;
+    text-decoration:overline;
+  }
+  .lesson tr td:nth-of-type(4) {
+    color: darkorange;
+    text-decoration:none;
+  }
+  
